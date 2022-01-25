@@ -10,6 +10,5 @@ mongoose.connect('mongodb+srv://dbUser:1234@movieapp.skjcz.mongodb.net/myFirstDa
     console.log(err);
 });
 
-
 app.get('/', (req, res) => res.send('Hello World~~ 안녕하세요 ~'));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
